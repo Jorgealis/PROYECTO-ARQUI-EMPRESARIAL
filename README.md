@@ -14,12 +14,12 @@ técnicas de abajo.
 
 ## 📌 En una frase
 
-[Ej: "Rediseñamos cómo Fundación Salud Viva conecta su app móvil, su ERP y su plataforma de telemedicina, para que la atención a pacientes sea más rápida y los datos clínicos queden protegidos."]
 Proponemos una solucion para optimizar las tareas de la Biblioteca Municipal "Rubiel Valencia Cossio", facilitando conexion de plataformas, pagina web y experiencia de usuario.
 
 ## 🩺 El problema
 
-[2-4 líneas, en el lenguaje del cliente, no en el nuestro. Ej: "Hoy la información de un paciente vive en tres sistemas que no se hablan entre sí: la app, el ERP y la telemedicina. Eso genera reprocesos, retrasos en la atención y dificulta cumplir con la normativa de protección de datos clínicos."]
+
+Se tiene que alimentar un nuevo software de gestión (Koha) con más de 8000 ejemplares de libros y otros recursos, Se tiene tambien dos software de gestión de inventario que tienen que ser usados en paralelo para registrar a los nuevos afiliados y ser alimentados con los nuevos materiales de la biblioteca, junto con Falta de una plataforma digital para consultar información de la biblioteca, sus eventos e inventario de los recursos disponibles (actualmente excel).
 
 ## 💡 Lo que proponemos
 
@@ -51,4 +51,4 @@ Todo el análisis que sustenta esta propuesta está documentado carpeta por carp
 
 ## 👥 Contacto
 
-[Nombre de quien responde preguntas del cliente sobre esta propuesta, y su correo/usuario de GitHub.]
+Ana Cecilia Pastrana Rodriguez 
