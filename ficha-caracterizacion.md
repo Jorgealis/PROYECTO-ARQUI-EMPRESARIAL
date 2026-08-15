@@ -66,6 +66,7 @@
 - Falta de personal 
 - Se cuenta con recursos limitados o demora en la disposición de los mismos
 - Tiempo
+- Acceso limitado a las plataformas (Llave del saber y Koha)
 
 
 
