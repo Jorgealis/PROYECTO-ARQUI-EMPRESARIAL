@@ -7,7 +7,7 @@ técnicas de abajo.
 
 # Arquitectura Empresarial — [Nombre del Cliente]
 
-**Equipo:** [Nombre del equipo] · [Integrante 1, Integrante 2, Integrante 3]
+**Equipo:** ARQUITECH · Jorge Alarcon, Julian Aguirre, Brayan P]
 **Curso:** Arquitectura Empresarial — Universidad de La Sabana
 
 ---
@@ -15,6 +15,7 @@ técnicas de abajo.
 ## 📌 En una frase
 
 [Ej: "Rediseñamos cómo Fundación Salud Viva conecta su app móvil, su ERP y su plataforma de telemedicina, para que la atención a pacientes sea más rápida y los datos clínicos queden protegidos."]
+Proponemos una solucion para optimizar las tareas de la Biblioteca Municipal "Rubiel Valencia Cossio", facilitando conexion de plataformas, pagina web y experiencia de usuario.
 
 ## 🩺 El problema
 
