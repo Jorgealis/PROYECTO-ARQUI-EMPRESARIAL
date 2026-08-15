@@ -51,4 +51,4 @@ Todo el análisis que sustenta esta propuesta está documentado carpeta por carp
 
 ## 👥 Contacto
 
-Ana Cecilia Pastrana Rodriguez - correo
+Ana Cecilia Pastrana Rodriguez - bibliotecarubielvalencia@gmail.com
