@@ -7,8 +7,8 @@ técnicas de abajo.
 
 # Arquitectura Empresarial — Biblioteca Municipal "Rubiel Valencia Cossio"
 
-**Equipo:** ARQUITECH · Jorge Alarcon, Julian Aguirre, Brayan P]
-**Curso:** Arquitectura Empresarial — Universidad de La Sabana
+**Equipo:** ARQUITECH · Jorge Alarcon, Julian Aguirre, Brayan Presiga
+**Curso:** Arquitectura Empresarial 2026-II— Universidad de La Sabana
 
 ---
 
