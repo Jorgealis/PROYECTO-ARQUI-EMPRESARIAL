@@ -5,7 +5,7 @@ Evite jerga (TOGAF, ArchiMate, STRIDE, etc.) en esta parte — eso queda para la
 técnicas de abajo.
 -->
 
-# Arquitectura Empresarial — [Nombre del Cliente]
+# Arquitectura Empresarial — Biblioteca Municipal "Rubiel Valencia Cossio"
 
 **Equipo:** ARQUITECH · Jorge Alarcon, Julian Aguirre, Brayan P]
 **Curso:** Arquitectura Empresarial — Universidad de La Sabana
