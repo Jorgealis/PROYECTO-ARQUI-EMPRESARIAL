@@ -1,15 +1,17 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-_Taller X - [Nombre completo del taller]_
+Taller 1 - Modelado de Proceso del Cliente con BPMN
 
 ## 👥 Integrantes del equipo
-- Nombre 1 (correo o usuario GitHub)
-- Nombre 2
-- Nombre 3
+- Julian Aguirre (JulianAguirreUnisabana)
+- Jorge Alarcon (Jorgealis)
+- Brayan Presiga (Brayan-137)
 
 ## 🧠 Descripción general del trabajo
 Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+
+Conocer, entender y representar a través de un diagrama BPMN uno de los procesos más importante de nuestro cliente, en este caso: el proceso para añadir material bibliográfico a la plataforma Koha de la biblioteca pública municipal de Cogua - Rubiel Valencia Cossio. Para conocer y entender este proceso se recibió la instrucción de un contratista de la empresa contrata para implementar esta plataforma en las bibliotecas de Cundinamarca.
 
 ## 🔧 Proceso de desarrollo
 Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
