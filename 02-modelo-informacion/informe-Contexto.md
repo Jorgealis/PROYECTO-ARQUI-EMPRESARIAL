@@ -3,9 +3,9 @@
 _Taller 2 - Modelo de Información y Diagrama de Contexto_
 
 ## 👥 Integrantes del equipo
-- Brayan
-- Jorge
-- Julian
+- Jorge Alarcón (Jorgealis)
+- Julian Aguirre (JulianAguirreUnisabana)
+- Brayan Presiga (Brayan-137)
 
 ## 🧠 Descripción general del trabajo
 El objetivo de este taller fue construir el Diagrama de Contexto de Negocio de la Biblioteca Pública Municipal Rubiel Valencia Cossio, identificando los actores externos que interactúan con la biblioteca y los sistemas (internos y externos) que soportan sus procesos de negocio. A partir de la información recolectada en la Ficha de Caracterización y en el Documento de Visión de Arquitectura, se representaron las relaciones entre la bibliotecaria y los usuarios con los distintos medios de registro y consulta que utiliza actualmente la biblioteca: la carpeta física, la hoja de Excel y las plataformas Llave del Saber y Koha, junto con la infraestructura externa que soporta a estas dos últimas.
