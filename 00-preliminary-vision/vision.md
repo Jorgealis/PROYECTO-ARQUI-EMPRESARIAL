@@ -54,5 +54,7 @@ Al mismo tiempo, la propuesta respeta las restricciones declaradas por la client
 
 Finalmente, el alcance del proyecto se limita conscientemente al diseño y documentación de la arquitectura —incluyendo la propuesta de una aplicación móvil que agilice el registro de información—, sin extenderse a la implementación real de las soluciones. Esto es coherente con los recursos limitados, el tiempo disponible y el acceso restringido a las plataformas que enfrenta actualmente la biblioteca, asegurando que la visión propuesta sea realista y ejecutable dentro del contexto de la entidad.
 
+Fuente asistida por IA: Claude (Anthropic), agosto 2026.
+
 ---
 _Este documento hace parte de la entrega del Taller 0 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
