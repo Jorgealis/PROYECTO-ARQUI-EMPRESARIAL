@@ -12,7 +12,7 @@
 
 ## I. Información General del Negocio
 
-**Nombre de la empresa o entidad:** Biblioteca Pública Municipal Rubiel Valencia Cossio
+**Nombre de la empresa o entidad:** Biblioteca Pública Municipal de Cogua - Rubiel Valencia Cossio
 
 **Sector económico:** Institución de servicios pública no lucrativa
 
@@ -30,8 +30,9 @@
 
 ## **II. Objetivos estratégicos**
 
-- Promocionar la lectura buscando incrementar la cantidad de visitantes y afiliados a la biblioteca
-- Mejorar el servicio de los visitantes y afiliados actuales y futuros (Tener actualizado el inventario de material de la biblioteca actualizado en las distintas plataformas)
+- Consolidarse como el principal motor de cohesión social, lectura y acceso abierto al conocimiento en el territorio. 
+- Reducir la brecha digital mediante la alfabetización tecnológica y acercar los servicios culturales a cada rincón de la comunidad. 
+- Llegar al 50% del ingreso de información al sistema Koha en el mes de Noviembre, para optimizar el servicio de la Biblioteca. 
 
 
 
@@ -65,8 +66,8 @@
 - La bibliotecaria tiene un problema de salud que le impide realizar tareas repetitivas durante largos periodos de tiempo
 - Falta de personal 
 - Se cuenta con recursos limitados o demora en la disposición de los mismos
-- Tiempo
-- Acceso limitado a las plataformas (Llave del saber y Koha)
+- Tiempo: Tener alimentada el inventario de Koha con al menos el 50% del material bibliográfico para noviembre
+- Legales: No se puede realizar una migración de los metadatos del material bibliográfico de la Llave del Saber a Koha
 
 
 
@@ -77,5 +78,4 @@
 **Correo electrónico:** bibliotecarubielvalencia@gmail.com
 
 **Rol o vínculo con la solución:** Bibliotecaria y Encarga de gestionar toda la biblioteca - Biblioteca Pública Municipal Rubiel Valencia Cossio
-
 
