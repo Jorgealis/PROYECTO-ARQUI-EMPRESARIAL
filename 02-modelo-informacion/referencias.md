@@ -3,16 +3,14 @@
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
 ## 🔖 Taller
-_Taller X - [Nombre del Taller]_
+Taller 2: Modelo de Información y Diagrama de Contexto
 
 ---
 
 ## 📚 Referencias utilizadas
-
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
+## Diagrama de contexto:
+- [1] Avolution. *Diagramas de arquitectura empresarial: tipos, beneficios y guía de implementación*. 2026. https://www.avolutionsoftware.com/es/our-resources/benefits-of-enterprise-architecture-diagrams/
+- [2] Avolution. *Mejores prácticas de Arquitectura Empresarial: diagramas*. 2024. https://www.avolutionsoftware.com/news/mejores-practicas-de-arquitectura-empresarial-diagramas/
 
 ---
 
