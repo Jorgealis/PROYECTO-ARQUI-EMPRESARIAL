@@ -21,7 +21,12 @@ Incluya un análisis sobre:
 - Qué supuestos se tomaron
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+
+![Diagrama de Contexto](DiagramaDeContexto.drawio.png)
+
+> Figura 1: Diagrama de Contexto (archivo: `02-modelo-informacion/DiagramaDeContexto.drawio.png`)
+
+> (Si GitHub no renderiza la imagen en la vista previa, puede abrirla directamente en: https://github.com/Jorgealis/PROYECTO-ARQUI-EMPRESARIAL/blob/main/02-modelo-informacion/DiagramaDeContexto.drawio.png)
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
