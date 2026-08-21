@@ -36,7 +36,7 @@ flowchart LR
 |---|---|---|
 | Mejorar el servicio de los visitantes y afiliados actuales y futuros | Mejora en la eficiencia del registro de libros, reduciendo el tiempo dedicado a esta tarea | Tiempo promedio invertido en registrar un ejemplar en las plataformas de gestión |
 | Promocionar la lectura buscando incrementar la cantidad de visitantes y afiliados | Se facilita e incentiva el acceso de los usuarios a los recursos y servicios de la biblioteca | Número de consultas y préstamos realizados por los usuarios |
-| Mejorar el servicio de los visitantes y afiliados actuales y futuros | Disminución de la carga de trabajo del personal de la biblioteca | Cantidad de tareas repetitivas o manuales realizadas por la bibliotecaria |
+| Mejorar Procesos de registro y consulta para los trabajadores | Disminución de la carga de trabajo del personal de la biblioteca | Cantidad de tareas repetitivas o manuales realizadas por la bibliotecaria |
 
 ## 🧭 Alcance
 
