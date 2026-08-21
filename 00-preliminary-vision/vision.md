@@ -19,7 +19,7 @@ flowchart LR
         info["Detalles de los libros e\ninformación de los usuarios"]
     end
     subgraph apps["Aplicaciones"]
-        plat["Llave del Saber\n(gestor de materiales)\n\nKoha\n(gestor de materiales,\ngestor de usuarios y\naplicación de consultas) \n \n App Móvil) \n(obtención de \n información eficiente)"]
+        plat["Llave del Saber\n(gestor de materiales)\n\nKoha\n(gestor de materiales,\ngestor de usuarios y\naplicación de consultas) \n \n App Móvil \n(obtención de \n información eficiente)"]
     end
     subgraph tec["Tecnología"]
         nube["Infraestructura en nube\n(gestionada por los\nproveedores de las aplicaciones)"]
