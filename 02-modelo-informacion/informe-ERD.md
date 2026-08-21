@@ -3,7 +3,7 @@
 ## 🔖 Nombre del Taller
 **Taller X – Modelo Entidad-Relación (ERD): Biblioteca – Registro de Libros**
 ## 👥 Integrantes del equipo
--Jorge Alarcon
+- Jorge Alarcon
 - Julian Aguirre
 - Brayan Presiga
 
@@ -81,7 +81,7 @@ Es importante señalar que en el archivo entregado las cardinalidades no aparece
 
 ## 📈 Diagrama final entregado
 
-![Diagrama ERD](ERD_Biblioteca_Registro_Libros.drawio)
+![Diagrama ERD](ERD_Biblioteca_Registro_Libros.drawio.png)
 > **Insertar aquí una captura de pantalla del diagrama ERD final realizado en Draw.io.**
 
 El diagrama representa las entidades **LIBRO, SERIE y USUARIO**, las relaciones **pertenece_a** y **PRESTAMO**, y los diferentes atributos asociados a cada elemento.
