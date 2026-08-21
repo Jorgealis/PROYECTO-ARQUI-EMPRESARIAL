@@ -4,9 +4,9 @@
 Biblioteca Pública Municipal Rubiel Valencia Cossio
 
 ## 👥 Integrantes del equipo
-- Brayan
-- Jorge
-- Julian
+- Jorge Alarcón (Jorgealis)
+- Julian Aguirre (JulianAguirreUnisabana)
+- Brayan Presiga (Brayan-137)
 
 ## 🗺️ Mapa conceptual de alto nivel
 
