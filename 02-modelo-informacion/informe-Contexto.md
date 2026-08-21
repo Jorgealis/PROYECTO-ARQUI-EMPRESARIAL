@@ -52,5 +52,7 @@ Una de las recomendaciones más relevantes para este tipo de diagramas es evitar
 ## 📚 Referencias
 - [1] Avolution. *Diagramas de arquitectura empresarial: tipos, beneficios y guía de implementación*. 2026. https://www.avolutionsoftware.com/es/our-resources/benefits-of-enterprise-architecture-diagrams/
 - [2] Avolution. *Mejores prácticas de Arquitectura Empresarial: diagramas*. 2024. https://www.avolutionsoftware.com/news/mejores-practicas-de-arquitectura-empresarial-diagramas/
+
+Fuente asistida por IA: Claude (Anthropic), agosto 2026.
 ---
 _Este documento hace parte de la entrega del taller 2 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
