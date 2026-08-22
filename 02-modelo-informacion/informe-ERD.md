@@ -75,8 +75,6 @@ Para la elaboración del modelo se asumió que:
 7. Los autores y las materias se consideran atributos asociados al libro dentro del modelo presentado.
 8. El modelo está orientado principalmente al registro y consulta de información bibliográfica y al control de préstamos.
 
-Es importante señalar que en el archivo entregado las cardinalidades no aparecen representadas mediante etiquetas numéricas explícitas; por esta razón, el informe no asigna cardinalidades específicas que no estén indicadas visualmente en el modelo.
-
 ---
 
 ## 📈 Diagrama final entregado
