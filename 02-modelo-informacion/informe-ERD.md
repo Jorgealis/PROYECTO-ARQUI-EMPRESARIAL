@@ -81,7 +81,7 @@ Es importante señalar que en el archivo entregado las cardinalidades no aparece
 
 ## 📈 Diagrama final entregado
 
-![Diagrama ERD](ERD_Biblioteca_Registro_Libros.drawio.png)
+![Diagrama ERD](ERD_Biblioteca_Registro_Libros.drawio.svg)
 > **Insertar aquí una captura de pantalla del diagrama ERD final realizado en Draw.io.**
 
 El diagrama representa las entidades **LIBRO, SERIE y USUARIO**, las relaciones **pertenece_a** y **PRESTAMO**, y los diferentes atributos asociados a cada elemento.
