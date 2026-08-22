@@ -1,7 +1,7 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-**Taller X – Modelo Entidad-Relación (ERD): Biblioteca – Registro de Libros**
+**Taller 2 – Modelo Entidad-Relación (ERD): Biblioteca – Registro de Libros**
 ## 👥 Integrantes del equipo
 - Jorge Alarcon
 - Julian Aguirre
@@ -112,4 +112,4 @@ El diagrama representa las entidades **LIBRO, SERIE y USUARIO**, las relaciones 
 ---
 
 
-_Este documento hace parte de la entrega del taller X del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
+Este documento hace parte de la entrega del taller 2 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana.
