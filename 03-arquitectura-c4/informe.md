@@ -39,7 +39,13 @@ Seguimos la metodología de 4 pasos de la guía del taller, una vista a la vez:
 4. No se incluyó el proceso de préstamos ni de gestión de eventos en el C2 (aunque sí aparecen como procesos de negocio en el diagnóstico AS-IS previo), porque el foco de modelado acordado con la bibliotecaria para esta primera fase es el registro de material bibliográfico.
 
 ## 📈 Diagrama final entregado
+
+<img width="1142" height="352" alt="image" src="https://github.com/user-attachments/assets/47cfb2b4-f325-4a36-863f-801a875c657e" />
+
 - [`c1-contexto-final.drawio`](c1-contexto-final.drawio) — Vista de Contexto (C1)
+
+<img width="1412" height="702" alt="image" src="https://github.com/user-attachments/assets/9d97496a-b7b0-417e-abb5-2ec66db4f7ef" />
+
 - [`c2-contenedores-final.drawio`](c2-contenedores-final.drawio) — Vista de Contenedores (C2)
 
 ## 📋 Tabla de actores, entidades o componentes
