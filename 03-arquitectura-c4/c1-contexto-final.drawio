@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.0.0">
+  <diagram name="C1 - Contexto" id="c1-contexto">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+    <mxCell id="n1" value="🧑 Bibliotecaria
+(Ana Cecilia Pastrana)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;fontColor=#ffffff;strokeColor=#0b4884;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="80" width="220" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="n2" value="🧑 Usuario / Afiliado
+(Visitante de la biblioteca)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;fontColor=#ffffff;strokeColor=#0b4884;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="320" width="220" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="n3" value="Sistema de Gestión
+Biblioteca Rubiel Valencia Cossio
+[Sistema en alcance]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#08427b;fontColor=#ffffff;strokeColor=#052e56;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="420" y="190" width="320" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="n4" value="Llave del Saber
+[Sistema externo - RNBP /
+Ministerio de las Culturas]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;fontColor=#ffffff;strokeColor=#5c5c5c;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="900" y="80" width="280" height="110" as="geometry" />
+    </mxCell>
+    <mxCell id="n5" value="Red de Catalogación Compartida
+[Sistema externo - Protocolo Z39.50]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;fontColor=#ffffff;strokeColor=#5c5c5c;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="900" y="320" width="280" height="110" as="geometry" />
+    </mxCell>
+    <mxCell id="e1" value="Registra material, usuarios
+y gestiona préstamos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n1" target="n3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" value="Solicita préstamo y consulta
+material (atención presencial,
+sin canal digital directo)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n2" target="n3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" value="Reporta estadísticas de
+servicios y afilia usuarios
+(formulario web, HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="n3" target="n4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" value="Consulta registros
+bibliográficos existentes
+(Z39.50)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="n3" target="n5">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
