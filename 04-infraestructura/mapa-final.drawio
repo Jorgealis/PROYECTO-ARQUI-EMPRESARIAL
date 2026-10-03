@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pTQL5aEYyblexQvWdpt1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-7" connectable="0" parent="1" style="group;fontColor=default;" value="" vertex="1">
+          <mxGeometry height="670" width="312.5" x="565" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-17" parent="2shvyGgTdqxxIcGTKFLz-7" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;strokeWidth=1;" value="Clientes" vertex="1">
+          <mxGeometry height="670" width="312.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-1" parent="2shvyGgTdqxxIcGTKFLz-7" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Portal Web (Llave del saber) - Personal biblioteca" vertex="1">
+          <mxGeometry height="80" width="160" x="76" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-1" parent="2shvyGgTdqxxIcGTKFLz-7" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="App Móvil (Nextbit) - Usuario Final" vertex="1">
+          <mxGeometry height="80" width="160" x="76" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-2" parent="2shvyGgTdqxxIcGTKFLz-7" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Portal Web (Koha) - Usuario Final" vertex="1">
+          <mxGeometry height="80" width="160" x="76" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-3" parent="2shvyGgTdqxxIcGTKFLz-7" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Portal Web (Koha) - Personal biblioteca" vertex="1">
+          <mxGeometry height="80" width="160" x="76" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-4" parent="2shvyGgTdqxxIcGTKFLz-7" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e51400;strokeColor=#B20000;labelBackgroundColor=none;fontColor=#ffffff;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;⚠️&lt;/span&gt;&lt;font&gt;&amp;nbsp;&lt;/font&gt;Almacenamiento local - PC bibliotecaria: eventos, talleres, videos y recursos (instancia única, sin backup)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="76.25" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-8" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="400" width="300" x="200" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-2" parent="2shvyGgTdqxxIcGTKFLz-8" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;aspect=fixed;dashed=1;strokeWidth=1;" value="Plataforma nacional - Llave del saber (MinCultura / RNBP)" vertex="1">
+          <mxGeometry height="400" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-3" parent="2shvyGgTdqxxIcGTKFLz-8" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Aplicación web - Llave del saber (redundancia desconocida)" vertex="1">
+          <mxGeometry height="80" width="160" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-4" parent="2shvyGgTdqxxIcGTKFLz-8" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Base de datos - Llave del saber: usuarios y prestamos (réplicas y backups desconocidos)" vertex="1">
+          <mxGeometry height="110" width="160" x="20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-5" edge="1" parent="2shvyGgTdqxxIcGTKFLz-8" source="Ba1UCUU8EqDsWrcu8T3W-3" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="Ba1UCUU8EqDsWrcu8T3W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="400" width="300" x="943" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-21" parent="2shvyGgTdqxxIcGTKFLz-9" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;aspect=fixed;dashed=1;strokeWidth=1;" value="Centro de datos Biteca – Bogotá" vertex="1">
+          <mxGeometry height="400" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-12" parent="2shvyGgTdqxxIcGTKFLz-9" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Instancia de Koha - Cogua (servidor compartido con otros municipios; redundancia no informada)" vertex="1">
+          <mxGeometry height="80" width="160" x="67.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-14" parent="2shvyGgTdqxxIcGTKFLz-9" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Base de datos: Usuarios, prestamos y catálogo de material (réplica y backups no informados)" vertex="1">
+          <mxGeometry height="110" width="160" x="95" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-24" edge="1" parent="2shvyGgTdqxxIcGTKFLz-9" source="6vjncLpP9iC3T9Pjx65Q-12" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-10" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="170" width="270" x="1330" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-18" parent="2shvyGgTdqxxIcGTKFLz-10" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;dashed=1;strokeWidth=1;" value="Servidores externos (z39.50)" vertex="1">
+          <mxGeometry height="170" width="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-16" parent="2shvyGgTdqxxIcGTKFLz-10" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Servidores externos: z39.50" vertex="1">
+          <mxGeometry height="60" width="120" x="75" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-22" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-1" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-23" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-2" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-25" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-3" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-26" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-12" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-6" edge="1" parent="1" source="2shvyGgTdqxxIcGTKFLz-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;" target="Ba1UCUU8EqDsWrcu8T3W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
