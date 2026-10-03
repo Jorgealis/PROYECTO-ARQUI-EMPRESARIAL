@@ -1,4 +1,4 @@
-# 📄 Informe Técnico del Taller
+# 📄 Informe Técnico del Taller 3: Arquitectura Actual del Sistema con el Modelo C4
 
 ## 🔖 Nombre del Taller
 _Taller 3 - Arquitectura Actual del Sistema con el Modelo C4_
