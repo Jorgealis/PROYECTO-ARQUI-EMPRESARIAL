@@ -58,7 +58,12 @@ El objetivo del taller es proponer la arquitectura objetivo (TO-BE) de Aplicacio
 No se tuvo acceso administrativo a Koha ni a Llave del Saber, y Biteca no puede responder algunas preguntas por restricciones contractuales (Taller 4). Por eso las soluciones que dependen de configuración de Koha se presentan con su dependencia explícita y se marcan para validar antes de implementarse.
 
 ## 📈 Diagrama final entregado
+<img width="1608" height="927" alt="to-be-aplicaciones-final drawio" src="https://github.com/user-attachments/assets/b89f9777-a607-4d0b-a977-738378ca061d" />
+
 - [`to-be-aplicaciones-final.drawio`](to-be-aplicaciones-final.drawio): TO-BE de Aplicaciones (extiende el C2 del Taller 3).
+
+<img width="1402" height="1082" alt="to-be-tecnologia-final drawio" src="https://github.com/user-attachments/assets/4023dba7-811a-432b-9adb-6c0467778786" />
+
 - [`to-be-tecnologia-final.drawio`](to-be-tecnologia-final.drawio): TO-BE de Tecnología (extiende el mapa del Taller 4).
 - [`matriz-brechas.xlsx`](matriz-brechas.xlsx): matriz de brechas, decisión ponderada de G1 y capacidades.
 
