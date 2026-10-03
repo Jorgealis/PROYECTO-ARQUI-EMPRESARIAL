@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram name="TO-BE C2 - Contenedores" id="to-be-c2-contenedores">
+    <mxGraphModel dx="1400" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1550" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=13;fontStyle=1;fontColor=#052e56;container=0;" value="Sistema de Gestión Biblioteca Rubiel Valencia Cossio" vertex="1">
+          <mxGeometry height="880" width="780" x="330" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;fontColor=#ffffff;strokeColor=#2e6295;fontSize=11;fontStyle=1;" value="Koha (ILS) [Contenedor - Aplicación web Perl/JavaScript] — TO-BE: cuentas individuales con dos perfiles (Bibliotecaria-admin y Catalogador)" vertex="1">
+          <mxGeometry height="110" width="260" x="350" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;fontColor=#ffffff;strokeColor=#2e6295;fontSize=11;fontStyle=1;" value="Hoja de Cálculo Excel [Contenedor - Registro de visitantes]" vertex="1">
+          <mxGeometry height="110" width="260" x="360" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7fa87f;fontColor=#ffffff;strokeColor=#557755;fontSize=11;fontStyle=1;dashed=1;" value="Registro Físico (Carpeta) [Contenedor manual - Registro de usuarios en papel]" vertex="1">
+          <mxGeometry height="110" width="260" x="790" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;fontColor=#ffffff;strokeColor=#4a4a4a;fontSize=11;fontStyle=1;" value="Base de Datos Koha [Infraestructura - MySQL/MariaDB]" vertex="1">
+          <mxGeometry height="110" width="260" x="800" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;fontColor=#ffffff;strokeColor=#4a4a4a;fontSize=11;fontStyle=1;" value="Motor de Indexación [Infraestructura - Zebra / Z39.50 server]" vertex="1">
+          <mxGeometry height="110" width="260" x="800" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;fontColor=#ffffff;strokeColor=#0b4884;fontSize=13;fontStyle=1;" value="🧑 Bibliotecaria (Ana Cecilia Pastrana)" vertex="1">
+          <mxGeometry height="100" width="200" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;fontColor=#ffffff;strokeColor=#0b4884;fontSize=13;fontStyle=1;" value="🧑 Usuario / Afiliado" vertex="1">
+          <mxGeometry height="100" width="200" x="30" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;fontColor=#ffffff;strokeColor=#5c5c5c;strokeWidth=2;fontSize=11;fontStyle=1;" value="Llave del Saber [Sistema externo - RNBP]" vertex="1">
+          <mxGeometry height="100" width="260" x="1180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;fontColor=#ffffff;strokeColor=#5c5c5c;strokeWidth=2;fontSize=11;fontStyle=1;" value="Red de Catalogación Compartida [Externo - Z39.50]" vertex="1">
+          <mxGeometry height="100" width="260" x="1180" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="n3" value="HTTPS - Interfaz staff (perfil admin): revisa registros, gestiona inventario y cuentas">
+          <mxGeometry relative="1" x="0.0938" y="-20" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="140" y="380" />
+              <mxPoint x="560" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="n4" value="Edición local - Registra datos de visitantes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="n7" value="Diligenciamiento manual - Registra datos de usuarios">
+          <mxGeometry relative="1" x="-0.0222" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="920" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;dashed=1;" target="n5" value="HTTPS (formulario web) - Reporta estadísticas y afilia usuarios (duplica registro de n3)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="n3" value="Sin canal digital directo - mediado presencialmente por la bibliotecaria">
+          <mxGeometry relative="1" x="0.625" y="10" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="n8" value="SQL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="n9" value="Indexa y consulta catálogo local">
+          <mxGeometry relative="1" y="-25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="610" y="580" />
+              <mxPoint x="610" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="n9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;dashed=1;" target="n6" value="Z39.50 - Consulta registros bibliográficos externos">
+          <mxGeometry relative="1" x="0.3173" y="70" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tb-title" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;fontColor=#052e56;" value="TO-BE C2 - Contenedores (extiende el C2 del Taller 3). Verde = NUEVO · Borde punteado = Fase 2 (por confirmar con Biteca)" vertex="1">
+          <mxGeometry height="40" width="780" x="330" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="t-n10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e8b57;fontColor=#ffffff;strokeColor=#1c5c38;fontSize=12;fontStyle=1;" value="🧑 NUEVO: Estudiante catalogador (servicio social)" vertex="1">
+          <mxGeometry height="100" width="200" x="30" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="t-n11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e8b57;fontColor=#ffffff;strokeColor=#1c5c38;fontSize=11;fontStyle=1;" value="Formulario de inscripción [NUEVO en C2 - Microsoft Forms en cuenta institucional; la bibliotecaria consulta las respuestas]" vertex="1">
+          <mxGeometry height="100" width="260" x="360" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="t-n12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e8b57;fontColor=#ffffff;strokeColor=#1c5c38;fontSize=11;fontStyle=1;dashed=1;" value="App de carga por lotes [NUEVO - Fase 2: app propia que lee ISBN, consulta Z39.50 y carga a Koha]" vertex="1">
+          <mxGeometry height="100" width="260" x="830" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="t-e1" edge="1" parent="1" source="t-n10" target="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;strokeColor=#1c5c38;strokeWidth=2;" value="HTTPS - Interfaz staff con cuenta individual (perfil catalogador, sin acceso a datos de usuarios)">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-e2" edge="1" parent="1" source="t-n10" target="t-n12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;strokeColor=#1c5c38;strokeWidth=2;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="Escanea ISBN en lote y revisa excepciones (Fase 2)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="910" />
+              <mxPoint x="960" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-e3" edge="1" parent="1" source="t-n12" target="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;strokeColor=#1c5c38;strokeWidth=2;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="API REST de Koha - cuenta de servicio con permisos mínimos (Fase 2, por confirmar con Biteca)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="730" />
+              <mxPoint x="480" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-e4" edge="1" parent="1" source="t-n12" target="n6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;strokeColor=#1c5c38;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="Z39.50/SRU - búsqueda de registros por ISBN (Fase 2)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-e5" edge="1" parent="1" source="n2" target="t-n11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;strokeColor=#1c5c38;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Diligencia el formulario por sí mismo (autorización y datos) - cuenta institucional">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="450" />
+              <mxPoint x="10" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
