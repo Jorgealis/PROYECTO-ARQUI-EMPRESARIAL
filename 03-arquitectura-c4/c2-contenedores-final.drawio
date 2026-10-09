@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.0.0">
+  <diagram name="C2 - Contenedores" id="c2-contenedores">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1010" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b1" value="Sistema de Gestión Biblioteca Rubiel Valencia Cossio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;fontColor=#052e56;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="1020" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="🧑 Bibliotecaria" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="🧑 Estudiante de servicio social" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="🧑 Usuario / Afiliado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="770" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g_pc" value="PC de la bibliotecaria [Almacenamiento local - instancia única, sin backup]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;fontColor=#052e56;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Hoja de Cálculo Excel [Contenedor - Registro de visitantes y de la colección no catalogada]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="g_pc">
+          <mxGeometry x="20" y="40" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Archivos de eventos, talleres, videos y recursos [Almacenamiento local]" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="g_pc">
+          <mxGeometry x="290" y="40" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="Registro Físico (Carpeta) [Contenedor manual - Registro de usuarios en papel; por confirmar si sigue vigente]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7fa87f;strokeColor=#557755;fontColor=#ffffff;fontSize=11;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="90" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="g_koha" value="Instancia de Koha - Cogua [operada por Biteca S.A.S. (contratada por IDECUT) - servidor compartido, centro de datos de Bogotá]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;fontColor=#052e56;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="680" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Koha (ILS) [Contenedor - Aplicación web Perl/JavaScript - interfaz del personal]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="g_koha">
+          <mxGeometry x="20" y="60" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="Base de Datos Koha [Infraestructura - MySQL/MariaDB]" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="g_koha">
+          <mxGeometry x="390" y="55" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="Motor de Indexación [Infraestructura - Zebra / Z39.50 server]" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="g_koha">
+          <mxGeometry x="390" y="200" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Formulario de inscripción [Contenedor - SaaS Microsoft 365 (Forms), cuenta creada por un estudiante]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Catálogo público OPAC [Contenedor - Portal web de Koha, cogua.bibliotecasidecut.com]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="App móvil Nextbit [Contenedor - Android / iOS, operada por Biteca]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="760" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Llave del Saber [Sistema externo - RNBP / Ministerio de las Culturas]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="100" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="Red de Catalogación Compartida [Externo - Z39.50]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="520" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="HTTPS (formulario web) - Reporta estadísticas y afilia usuarios (duplica el registro hecho en Koha)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="n1" target="n5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="340" />
+              <mxPoint x="10" y="15" />
+              <mxPoint x="1530" y="15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Edición local - registra visitantes y guarda archivos de eventos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" edge="1" parent="1" source="n1" target="g_pc">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="320" />
+              <mxPoint x="330" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Diligenciamiento manual - Registra datos de usuarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="n1" target="n7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="262" />
+              <mxPoint x="1085" y="262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="HTTPS - Interfaz staff (cuenta compartida): cataloga material y gestiona inventario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.975;exitY=0.82;entryX=0;entryY=0.25;" edge="1" parent="1" source="n1" target="n3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="372" />
+              <mxPoint x="580" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="HTTPS - Interfaz staff: cataloga con las mismas cuentas compartidas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.833;" edge="1" parent="1" source="n10" target="n3">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="HTTPS - Consulta las respuestas de inscripción" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.9;exitY=0.9;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="380" />
+              <mxPoint x="265" y="725" />
+              <mxPoint x="485" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="HTTPS - Inscripción" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n2" target="n12">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="HTTPS - Consulta el catálogo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="n2" target="n13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="925" />
+              <mxPoint x="765" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="App móvil - Consulta, reserva y renueva" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.4;exitY=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="n2" target="n15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="965" />
+              <mxPoint x="1085" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.24;exitY=0;entryX=0.24;entryY=1;" edge="1" parent="1" source="n13" target="n3">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="HTTPS (API de Koha)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.72;entryY=1;" edge="1" parent="1" source="n15" target="n3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="740" />
+              <mxPoint x="820" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.333;entryX=0;entryY=0.474;" edge="1" parent="1" source="n3" target="n8">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="Indexa y consulta catálogo local (Z39.50 interno; por confirmar con Biteca)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.833;entryX=0;entryY=0.526;" edge="1" parent="1" source="n3" target="n9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="500" />
+              <mxPoint x="950" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="Z39.50 - Consulta registros bibliográficos externos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.526;entryX=0;entryY=0.5;dashed=1;" edge="1" parent="1" source="n9" target="n6">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
