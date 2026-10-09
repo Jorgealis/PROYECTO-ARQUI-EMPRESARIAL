@@ -32,7 +32,7 @@ El resultado es una checklist de 16 ítems organizados en siete categorías, eva
 6. **Construcción de la checklist**: Agrupamos 16 ítems en las categorías de la guía y agregamos una categoría propia, *Catalogación y Colecciones*, porque la Ley 1379 de 2010 impone obligaciones verificables sobre el catálogo, el inventario y la conservación [3].
 7. **Evaluación del cumplimiento**: Evaluamos cada ítem como Cumple o Parcial, siempre con evidencia concreta. La evaluación refleja el estado actual (AS-IS): no marcamos como cumplido nada que no estuviera implementado.
 8. **Riesgo y priorización**: Definimos un criterio explícito de riesgo (Alto, Medio, Bajo) y otro de prioridad, y ordenamos las brechas según ellos.
-9. **Ajuste del formulario y reevaluación**: Con base en los hallazgos redactamos un nuevo aviso de privacidad, que el cliente implementó en el formulario de inscripción. Con esa evidencia reevaluamos la checklist: tres ítems pasaron de Parcial a Cumple y una brecha bajó de riesgo Alto a Medio.
+9. **Ajuste del formulario y reevaluación**: Con base en los hallazgos redactamos un nuevo aviso de privacidad, que el cliente implementó en el formulario de inscripción el 1 de octubre de 2026 [14]. Con esa evidencia reevaluamos la checklist: tres ítems pasaron de Parcial a Cumple y una brecha bajó de riesgo Alto a Medio. Las capturas del formulario, con el aviso de privacidad y las preguntas de autorización, están en la carpeta [evidencia](./evidencia/) y se enlazan desde la columna de evidencia de la checklist.
 10. **Revisión de consistencia**: Verificamos que cada ítem Parcial tuviera su brecha, que cada criterio citara su fuente y que las recomendaciones corrigieran directamente la brecha encontrada.
 
 ## 🧩 Análisis del modelo propuesto
@@ -131,6 +131,9 @@ Esto también nos ayudó a entender por qué la política de la Alcaldía es tan
 **Material del curso y apoyo:**
 - [12] Universidad de La Sabana, curso AREM. *Guía Paso a Paso: Checklist de Cumplimiento Normativo* (`paso_a_paso_normatividad.md`), Taller 6.
 - [13] Fuente asistida por IA: Claude (Anthropic), septiembre-octubre 2026.
+
+**Evidencia del cliente:**
+- [14] Biblioteca Pública Municipal Rubiel Valencia Cossio. *Inscripción de nuevos usuarios* (formulario de Microsoft Forms con aviso de privacidad). Publicado el 1 de octubre de 2026. Capturas en [evidencia/](./evidencia/).
 
 ---
 

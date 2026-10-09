@@ -30,6 +30,9 @@ Taller 6 - Checklist de cumplimiento normativo
 - [12] Universidad de La Sabana, curso AREM. *Guía Paso a Paso: Checklist de Cumplimiento Normativo* (`paso_a_paso_normatividad.md`), Taller 6.
 - [13] Fuente asistida por IA: Claude (Anthropic), septiembre-octubre 2026.
 
+**Evidencia del cliente:**
+- [14] Biblioteca Pública Municipal Rubiel Valencia Cossio. *Inscripción de nuevos usuarios* (formulario de Microsoft Forms con aviso de privacidad). Publicado el 1 de octubre de 2026. Capturas en [evidencia/](./evidencia/).
+
 ---
 
 Este archivo forma parte de la entrega académica del curso AREM - Universidad de La Sabana.
