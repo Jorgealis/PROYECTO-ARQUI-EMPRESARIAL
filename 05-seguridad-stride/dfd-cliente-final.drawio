@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.0.0">
+  <diagram name="DFD Biblioteca" id="dfd-biblioteca">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="860" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="usuario" value="🧑 Usuario / Afiliado&#xa;(incluye menores de edad)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z1" value="Biblioteca de Cogua" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#c0392b;fontColor=#c0392b;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="260" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="bib" value="🧑 Bibliotecaria" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="z1">
+          <mxGeometry x="20" y="70" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="est" value="🧑 Estudiante de servicio social" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="z1">
+          <mxGeometry x="20" y="230" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zms" value="Microsoft 365 - cuenta creada por un estudiante (externo, fuera del control de la Alcaldía)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#c0392b;fontColor=#c0392b;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="P3: Formulario de inscripción&#xa;(Microsoft Forms)" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zms">
+          <mxGeometry x="40" y="50" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="D3: Respuestas del formulario" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zms">
+          <mxGeometry x="40" y="160" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbit" value="Centro de datos Biteca - Bogotá (externo; Encargado del Tratamiento)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#c0392b;fontColor=#c0392b;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="320" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="P1: Interfaz de Registro Koha&#xa;(personal)" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zbit">
+          <mxGeometry x="30" y="50" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="D1: BD Koha" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zbit">
+          <mxGeometry x="30" y="190" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="P4: OPAC y app Nextbit&#xa;(catálogo público)" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zbit">
+          <mxGeometry x="30" y="350" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zlds" value="Plataforma nacional Llave del Saber (MinCultura / RNBP, externo)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#c0392b;fontColor=#c0392b;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="300" width="320" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="P2: Formulario Web&#xa;Llave del Saber" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zlds">
+          <mxGeometry x="30" y="50" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="D2: BD Llave del Saber" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="zlds">
+          <mxGeometry x="30" y="190" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="F1: datos personales, de menores y sensibles (HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="usuario" target="p3">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1b" value="F1b: persiste" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p3" target="d3">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1c" value="F1c: consulta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.818;exitY=0.1;entryX=0.615;entryY=1;" edge="1" parent="1" source="bib" target="d3">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="F2: transcribe, consulta y edita (cuenta Koha compartida)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.562;entryX=0;entryY=0.812;" edge="1" parent="1" source="bib" target="p1">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2b" value="F2b: cataloga, edita y exporta reportes (cuenta compartida)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.438;" edge="1" parent="1" source="est" target="p1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="570" />
+              <mxPoint x="650" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="F3: persiste" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1" target="d1">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="F4: ingresa los mismos datos (credencial institucional única)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.955;exitY=0.188;entryX=0.5;entryY=0;" edge="1" parent="1" source="bib" target="p2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="280" />
+              <mxPoint x="1300" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="F5: persiste" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2" target="d2">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="F7: consulta el catálogo (HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="usuario" target="p4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="810" />
+              <mxPoint x="880" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="F8: lee el catálogo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="p4" target="d1">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
