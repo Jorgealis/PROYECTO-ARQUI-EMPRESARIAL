@@ -22,7 +22,7 @@ Seguimos la metodología de 5 pasos de la guía del taller:
 4. **Reconocimiento pasivo autorizado** — en lugar de asumir qué controles existen hoy en Llave del Saber, se buscó evidencia pública real: el manual oficial de usuario del sistema (publicado por la propia RNBP) confirma textualmente que **"cada biblioteca tendrá un único usuario de acceso para todas las personas que trabajan en la biblioteca"** y que esa contraseña **"será el mismo para todos los sistemas de información nacionales"** de la RNBP. Esta evidencia, obtenida por observación pasiva de documentación pública (sin ninguna prueba activa contra el sistema), cambió por completo el nivel de detalle y la severidad de las amenazas T1 y T3 frente a lo que hubiéramos escrito por simple suposición. En la revisión posterior, T3 se recalculó con el Taller 6 (ítem 9): las cuentas compartidas de Koha ya existen, así que el riesgo es actual y no futuro.
 5. **Evaluar impacto y priorizar por riesgo** — se completaron impacto, probabilidad y nivel de riesgo para cada amenaza, y se ordenó la tabla de mayor a menor riesgo (7 amenazas de riesgo Alto y 2 de riesgo Medio).
 
-En la Parte 1 (trabajo en clase), aplicamos primero la misma metodología completa sobre el caso base de EdukIT siguiendo el ejemplo ya resuelto en la guía, y adicionalmente completamos el reto práctico #1 de OWASP Juice Shop (login bypass) en una instancia local, registrando el hallazgo como una fila adicional (T7) en `tabla-stride-clase.xlsx` — sin repetir esa técnica activa contra ningún sistema real, tal como exige la guía.
+En la Parte 1 (trabajo en clase), aplicamos primero la misma metodología completa sobre el caso base de EdukIT siguiendo el ejemplo ya resuelto en la guía.
 
 ## 🧩 Análisis del modelo propuesto
 
