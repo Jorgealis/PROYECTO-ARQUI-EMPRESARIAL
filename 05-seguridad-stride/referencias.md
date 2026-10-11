@@ -14,9 +14,8 @@ _Taller 5 - Evaluación de Seguridad con STRIDE_
 3. Congreso de la República de Colombia. *Ley 1581 de 2012 - Por la cual se dictan disposiciones generales para la protección de datos personales*, Artículo 7°. http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html
 4. Superintendencia de Industria y Comercio (SIC). "¿Los datos personales de los niños, niñas y adolescentes tienen alguna protección especial?". https://www.sic.gov.co/content/%C2%BFlos-datos-personales-de-los-ni%C3%B1os-ni%C3%B1as-y-adolescentes-tienen-alguna-protecci%C3%B3n-especial
 5. Departamento Administrativo de la Función Pública. *Decreto 1377 de 2013 - Reglamentario de la Ley 1581 de 2012*. https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=53646
-6. OWASP Foundation. *OWASP Juice Shop Project*. https://owasp.org/www-project-juice-shop/
-7. Grupo AREM (Universidad de La Sabana). *Guía Paso a Paso: Evaluación de Seguridad con STRIDE*. Repositorio del taller. https://github.com/CesarAVegaF312/AREM-Taller_5_Seguridad
-8. Fuente asistida por IA: Claude (Anthropic), septiembre 2026 — apoyo en investigación (incluyendo reconocimiento pasivo sobre documentación pública de Llave del Saber), redacción del informe y construcción de las tablas STRIDE a partir del diagnóstico previo del equipo.
+6. Grupo AREM (Universidad de La Sabana). *Guía Paso a Paso: Evaluación de Seguridad con STRIDE*. Repositorio del taller. https://github.com/CesarAVegaF312/AREM-Taller_5_Seguridad
+7. Fuente asistida por IA: Claude (Anthropic), septiembre 2026 — apoyo en investigación (incluyendo reconocimiento pasivo sobre documentación pública de Llave del Saber), redacción del informe y construcción de las tablas STRIDE a partir del diagnóstico previo del equipo.
 
 ---
 
