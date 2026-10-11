@@ -11,7 +11,7 @@
         <mxCell id="n1" value="🧑 Bibliotecaria" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="290" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="n10" value="🧑 Estudiante de servicio social" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="n10" value="🧑 Estudiante de servicio social&#xa;[Ayudante temporal]" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="450" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n2" value="🧑 Usuario / Afiliado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
@@ -26,7 +26,7 @@
         <mxCell id="n14" value="Archivos de eventos, talleres, videos y recursos [Almacenamiento local]" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="g_pc">
           <mxGeometry x="290" y="40" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="n7" value="Registro Físico (Carpeta) [Contenedor manual - Registro de usuarios en papel; por confirmar si sigue vigente]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7fa87f;strokeColor=#557755;fontColor=#ffffff;fontSize=11;fontStyle=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="n7" value="Registro Físico (Carpeta) [Contenedor manual - Registro de usuarios en papel; en proceso de dejar de usarse]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7fa87f;strokeColor=#557755;fontColor=#ffffff;fontSize=11;fontStyle=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="90" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g_koha" value="Instancia de Koha - Cogua [operada por Biteca S.A.S. (contratada por IDECUT) - servidor compartido, centro de datos de Bogotá]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;fontColor=#052e56;fontSize=12;strokeWidth=2;verticalAlign=top;fontStyle=1;container=1;collapsible=0;dashed=1;" vertex="1" parent="1">

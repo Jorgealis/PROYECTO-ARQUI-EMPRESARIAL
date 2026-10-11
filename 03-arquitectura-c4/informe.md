@@ -30,8 +30,8 @@ Seguimos la metodología de 4 pasos de la guía del taller, una vista a la vez:
 **Cómo representa las necesidades del cliente:**
 - El diagrama C2 hace explícita, con una arista propia, la **duplicidad de sistemas** que la ficha de caracterización señala como el problema #2: la bibliotecaria alimenta Koha *y* Llave del Saber por separado — la relación entre la Bibliotecaria y Llave del Saber sale directamente de ella, no del sistema Koha, precisamente porque hoy no existe integración entre ambos.
 - El Usuario/Afiliado se relaciona con el sistema por tres canales digitales que el equipo confirmó en los Talleres 4 y 6: el catálogo público (OPAC, en su propio subdominio) y la app Nextbit, ambos hacia la instancia de Koha por HTTPS, y el formulario de inscripción de Microsoft Forms. Esto matiza el problema #3 de la ficha (falta de una plataforma digital para consultar el inventario): el canal ya existe, pero solo tiene cargado cerca del 10 % de la colección, por lo que la brecha está en el contenido catalogado y no en el canal (Taller 6, ítem 15).
-- El Estudiante de servicio social aparece como actor propio porque catalogan en Koha con dos cuentas con permisos de edición que comparten con la bibliotecaria (Taller 6, ítem 9). Por eso la bibliotecaria no es la única operadora del sistema.
-- Incluir el "Registro Físico (Carpeta)" como contenedor, aunque no sea software, mantiene la fidelidad del AS-IS: es una pieza real del proceso actual y va a ser insumo directo de cualquier propuesta TO-BE de migración de datos. Como hoy la inscripción se hace en el formulario en línea, queda por confirmar con la bibliotecaria si la carpeta sigue en uso o ya es histórica.
+- El Estudiante de servicio social aparece como actor propio porque catalogan en Koha con dos cuentas con permisos de edición que comparten con la bibliotecaria (Taller 6, ítem 9). Son ayudantes temporales que asisten algunos días y en horario reducido, así que la bibliotecaria sigue siendo la única empleada de la biblioteca y no puede contar con ellos para toda la operación; aun así, no es la única persona que opera Koha.
+- Incluir el "Registro Físico (Carpeta)" como contenedor, aunque no sea software, mantiene la fidelidad del AS-IS: es una pieza real del proceso actual y va a ser insumo directo de cualquier propuesta TO-BE de migración de datos. Como hoy la inscripción se hace en el formulario en línea, la carpeta está en proceso de dejar de usarse; se mantiene en el C2 porque todavía hace parte del AS-IS durante esa transición.
 
 **Supuestos tomados:**
 1. Se modeló "Sistema de Gestión Biblioteca Rubiel Valencia Cossio" como una única caja en el C1, aunque en la realidad no es un sistema unificado sino tres herramientas fragmentadas — esa fragmentación se revela intencionalmente al bajar al nivel C2, que es justamente el propósito de cada nivel de abstracción en C4.
@@ -57,7 +57,7 @@ Seguimos la metodología de 4 pasos de la guía del taller, una vista a la vez:
 | Nombre del elemento | Tipo | Descripción | Responsable |
 |---|---|---|---|
 | Bibliotecaria | Actor (rol) | Responsable de la operación diaria de la biblioteca; ejecuta el registro, el préstamo y el reporte de información (única empleada, con apoyo de estudiantes de servicio social) | Cliente |
-| Estudiante de servicio social | Actor (rol) | Apoya la catalogación en Koha con cuentas con permisos de edición compartidas con la bibliotecaria | Cliente |
+| Estudiante de servicio social | Actor (rol) | Ayudante temporal (asiste algunos días, en horario reducido); apoya la catalogación en Koha con cuentas con permisos de edición compartidas con la bibliotecaria | Cliente |
 | Usuario / Afiliado | Actor (rol) | Visitante que consulta el catálogo (OPAC o app Nextbit), se inscribe en el formulario en línea y solicita préstamos | Cliente |
 | Sistema de Gestión Biblioteca Rubiel Valencia Cossio | Sistema en alcance | Conjunto de herramientas que la biblioteca opera o usa directamente (Koha + Excel + formulario + registro físico) | Equipo ARQUITECH (modelado) |
 | Koha | Contenedor | ILS de código abierto; cataloga material bibliográfico con estándar MARC21. Instancia de Cogua en servidor compartido | Biteca (instancia) / Biblioteca (uso) |
@@ -65,7 +65,7 @@ Seguimos la metodología de 4 pasos de la guía del taller, una vista a la vez:
 | App móvil Nextbit | Contenedor | Aplicación Android/iOS para consultar el catálogo, reservar y renovar; se conecta a la instancia de Koha | Biteca |
 | Formulario de inscripción | Contenedor (SaaS) | Formulario de Microsoft Forms (Microsoft 365) donde el usuario se inscribe; alojado en una cuenta creada por un estudiante | Biblioteca / Alcaldía (por trasladar a cuenta institucional) |
 | Hoja de Cálculo Excel | Contenedor | Registro y consulta manual de visitantes y de la colección aún no catalogada; vive en el PC de la bibliotecaria | Bibliotecaria |
-| Registro Físico (Carpeta) | Contenedor manual | Registro en papel de datos de usuarios; por confirmar si sigue vigente | Bibliotecaria |
+| Registro Físico (Carpeta) | Contenedor manual | Registro en papel de datos de usuarios; en proceso de dejar de usarse | Bibliotecaria |
 | PC de la bibliotecaria (almacenamiento local) | Infraestructura | Única copia de la hoja de Excel y de los archivos de eventos, talleres, videos y recursos; sin backup | Bibliotecaria |
 | Base de Datos Koha | Infraestructura | Persistencia de registros bibliográficos y de usuarios (MySQL/MariaDB) | Biteca |
 | Motor de Indexación | Infraestructura | Búsqueda de catálogo y protocolo Z39.50 (Zebra / Elasticsearch) | Biteca |
