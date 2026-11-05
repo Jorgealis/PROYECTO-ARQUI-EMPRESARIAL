@@ -40,7 +40,7 @@ El objetivo del taller es proponer la arquitectura objetivo (TO-BE) de Aplicacio
 - **Priorización:** 3 soluciones priorizadas (catalogación distribuida, catalogación asistida y respaldo 3-2-1) y una Fase 2 condicionada (carga por lotes).
 
 ### Cómo representa las necesidades del cliente
-- Disminuye la carga de la bibliotecaria sin pedirle más horas: el trabajo repetitivo pasa a los dos estudiantes de servicio social y ella pasa a revisar una muestra.
+- Hace más eficiente la catalogación sin pedirle más horas a la bibliotecaria: el trabajo repetitivo pasa a los dos estudiantes de servicio social, ella pasa a revisar una muestra y recupera tiempo para otras actividades de la biblioteca.
 - Responde a la restricción de recursos limitados: las dos primeras mejoras son de bajo costo (servicio social existente y un lector de códigos).
 - Cierra al mismo tiempo brechas de seguridad y cumplimiento que ya estaban diagnosticadas: cuentas individuales y perfil restringido frente al acceso compartido a datos de menores (Taller 5, T3 y T4; Taller 6, ítems 9, 11, 13 y 14).
 - Atiende el riesgo de mayor severidad del Taller 4 (pérdida permanente de archivos) con una medida que la biblioteca ejecuta sola.

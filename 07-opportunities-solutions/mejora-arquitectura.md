@@ -58,9 +58,9 @@ Biblioteca Pública Municipal de Cogua - Rubiel Valencia Cossio
 La idea #3 (carga por lotes) se modela como **Fase 2**: gusta al cliente, pero Koha no ofrece carga por lotes en esta instalación, así que exige construir una app propia y que Biteca habilite el acceso por API. Las ideas #4 y #6 a #9 pasan al backlog, trazadas a su brecha; varias dependen de terceros.
 
 ### 2.3 Decisión para G1 (matriz ponderada)
-Se compararon **A)** catalogación asistida, **B)** catalogación distribuida con los 2 estudiantes y **C)** carga por lotes con app propia. Pesos (por validar con la bibliotecaria): carga 35 %, dependencia de terceros 25 %, costo 20 %, calidad y seguridad 20 %.
+Se compararon **A)** catalogación asistida, **B)** catalogación distribuida con los 2 estudiantes y **C)** carga por lotes con app propia. Pesos (validados con la bibliotecaria): eficiencia del proceso 35 %, dependencia de terceros 25 %, costo 20 %, calidad y seguridad 20 %.
 
-| Opción | Carga | Dependencia | Costo | Calidad y seguridad | **Total** |
+| Opción | Eficiencia | Dependencia | Costo | Calidad y seguridad | **Total** |
 |---|---|---|---|---|---|
 | A · Asistida | 3 | 4 | 4 | 3 | **3,45** |
 | B · Distribuida | 4 | 4 | 5 | 4 | **4,20** |

@@ -29,19 +29,19 @@ Cada título que llega exige que una sola persona busque, corrija y valide sus d
 
 ## Paso 3 — Criterios, pesos y escala
 
-Los pesos los propuso el equipo con apoyo de IA y **están pendientes de validar con la bibliotecaria**, porque la guía exige que los defina o valide el negocio. En la escala 1-5, 5 es siempre lo más favorable.
+Los pesos los propuso el equipo con apoyo de IA y **la bibliotecaria los validó el 05/11/2026**, como exige la guía (los define o valida el negocio). A petición suya, el primer criterio se expresa como eficiencia del proceso: la catalogación le ha quitado tiempo que antes dedicaba a otras actividades de la biblioteca. En la escala 1-5, 5 es siempre lo más favorable.
 
 | Criterio | Peso (%) | Qué significa 5 | Qué significa 1 |
 |---|---|---|---|
-| Reducción de la carga de la bibliotecaria | 35 | El trabajo deja de depender de una sola persona o se reduce a revisar excepciones | El esfuerzo por título no cambia |
+| Eficiencia del proceso de catalogación | 35 | El proceso deja de depender de una sola persona o se reduce a revisar excepciones, y libera tiempo para otras actividades de la biblioteca | El tiempo por título no cambia |
 | Dependencia de terceros | 25 | La biblioteca lo hace sola | Requiere que Biteca o IDECUT habiliten algo sin garantía |
 | Costo adicional | 20 | Sin costo adicional (4 = compra única pequeña; 3 = compra mediana u horas de desarrollo; 2 = costo recurrente) | Contratación o costo recurrente alto |
 | Calidad de datos y seguridad | 20 | Mejora a la vez la calidad de los datos y la trazabilidad de quién hace qué | Aumenta errores, duplicados o acceso no controlado |
 | **Total** | **100** | | |
 
-_Por qué esos pesos:_ la carga pesa más porque es la expectativa central de la ficha ("disminuir la carga de trabajo"). La dependencia pesa 25 % porque Biteca solo pudo responder parte de las preguntas por restricciones contractuales (Taller 4). El costo pesa 20 % por los recursos limitados del cliente. La calidad y seguridad pesan 20 % por las brechas de los Talleres 5 y 6.
+_Por qué esos pesos:_ la eficiencia pesa más porque es la expectativa central de la ficha ("disminuir la carga de trabajo") y la bibliotecaria confirmó que la catalogación le resta tiempo para otras actividades. La dependencia pesa 25 % porque Biteca solo pudo responder parte de las preguntas por restricciones contractuales (Taller 4). El costo pesa 20 % por los recursos limitados del cliente. La calidad y seguridad pesan 20 % por las brechas de los Talleres 5 y 6.
 
-_Criterio eliminatorio:_ toda opción con Reducción de carga menor a 3 se descarta.
+_Criterio eliminatorio:_ toda opción con Eficiencia menor a 3 se descarta.
 
 ---
 
@@ -69,7 +69,7 @@ Las tres no son excluyentes: la matriz decide cuál va primero.
 
 ## Paso 6 — Puntajes con justificación
 
-| Opción | Carga (35 %) | Dependencia (25 %) | Costo (20 %) | Calidad y seguridad (20 %) |
+| Opción | Eficiencia (35 %) | Dependencia (25 %) | Costo (20 %) | Calidad y seguridad (20 %) |
 |---|---|---|---|---|
 | A | **3** — acelera cada título, pero la bibliotecaria sigue haciendo todos | **4** — el lector funciona sin Biteca; solo el formato corto podría requerir permiso | **4** — compra única de un lector (supuesto, por cotizar) | **3** — el ISBN reduce errores de digitación, pero no resuelve las cuentas compartidas |
 | B | **4** — reparte el trabajo repetitivo entre 2 estudiantes; queda la revisión por muestreo | **4** — el equipo confirmó que se pueden crear cuentas y quien tenga permiso de administración asigna permisos por módulo [5][6]; falta probar el perfil restringido en su instancia | **5** — el servicio social ya existe, sin costo adicional | **4** — cuentas individuales dan trazabilidad (T5-T3, T6-ítem 9); la calidad depende de estudiantes rotativos |
@@ -85,13 +85,13 @@ Las tres no son excluyentes: la matriz decide cuál va primero.
 
 **Sensibilidad:**
 
-| Escenario de pesos (carga / dependencia / costo / calidad) | Total A | Total B | Total C | ¿Gana la misma opción? |
+| Escenario de pesos (eficiencia / dependencia / costo / calidad) | Total A | Total B | Total C | ¿Gana la misma opción? |
 |---|---|---|---|---|
 | Pesos base: 35 / 25 / 20 / 20 | 3,45 | 4,20 | 3,25 | B |
 | Costo y facilidad: 20 / 30 / 30 / 20 | 3,60 | 4,30 | 2,90 | Sí (B) |
-| Carga alta: 50 / 15 / 15 / 20 | 3,30 | 4,15 | 3,65 | Sí (B) |
+| Eficiencia alta: 50 / 15 / 15 / 20 | 3,30 | 4,15 | 3,65 | Sí (B) |
 
-C solo superaría a B si la reducción de carga pesara más del 66,7 % (repartiendo el resto en partes iguales): en ese punto ambas empatan en 4,11. Entre A (3,45) y C (3,25) hay 0,20 puntos, así que se tratan como empate técnico, y las dos pasan el criterio eliminatorio.
+C solo superaría a B si la eficiencia pesara más del 66,7 % (repartiendo el resto en partes iguales): en ese punto ambas empatan en 4,11. Entre A (3,45) y C (3,25) hay 0,20 puntos, así que se tratan como empate técnico, y las dos pasan el criterio eliminatorio.
 
 ---
 
@@ -119,10 +119,10 @@ La IA propone; el equipo justifica y decide ([guía, sección 2.2](../clase/guia
 
 | Paso | Qué se le pidió a la IA | Qué propuso | Dato verificado o recalculado | Qué cambió el equipo |
 |---|---|---|---|---|
-| 3 | Pesos y escalas de los criterios | 35 / 25 / 20 / 20, con razón por criterio | Totales y escenarios recalculados con fórmulas en `matriz-brechas.xlsx` | Pendiente: el equipo debe validarlos con la bibliotecaria |
+| 3 | Pesos y escalas de los criterios | 35 / 25 / 20 / 20, con razón por criterio | Totales y escenarios recalculados con fórmulas en `matriz-brechas.xlsx` | Validados por la bibliotecaria el 05/11/2026 sin cambios en los pesos; el criterio de carga se renombró a «Eficiencia del proceso de catalogación» a petición suya |
 | 4 | Opciones, incluida una radicalmente distinta | A, B y C | Se verificó en la documentación de Koha que existe una ruta de API para crear registros bibliográficos [3][4] | El equipo aportó que Koha no tiene carga por lotes y que C exige una app aparte |
 | 6 | Borrador de puntajes con su razón | Puntajes de A, B y C | El equipo confirmó que se pueden crear más cuentas en Koha, y la dependencia de B subió de 3 a 4; C se recalibró | El equipo debe validar cada celda con la escala del Paso 3 |
-| 7 | Atacar la decisión | Umbral de sensibilidad | Recalculado: C supera a B solo si la carga pesa más del 66,7 % | — |
+| 7 | Atacar la decisión | Umbral de sensibilidad | Recalculado: C supera a B solo si la eficiencia pesa más del 66,7 % | — |
 
 - [ ] Puntué por mi cuenta antes de comparar con la IA (evita el anclaje). _Por completar por el equipo._
 - [ ] Verifiqué o recalculé toda cifra y afirmación de la IA que entró a la matriz. _Totales y sensibilidad recalculados en la hoja de cálculo; supuestos de costo y horas por confirmar._
